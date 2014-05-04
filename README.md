@@ -1,4 +1,4 @@
-Kinect Coordinate Mapping (SDK version 1.8)
+Kinect Coordinate Mapping
 =========================
 
 This project demonstrates Kinect for Windows coordinate mapping using SDK version 1.8.
