@@ -5,7 +5,12 @@ This project demonstrates Kinect for Windows coordinate mapping using SDK versio
 
 Learn how to draw the joints on screen and PERFECTLY align them with the color or depth frame.
 
-Example using CoordinateMapper:
+Tutorial
+---
+Read a thorough tutorial to understand Kinect coordiante mapping: [http://pterneas.com/?p=1554] (http://pterneas.com/?p=1554)
+
+Example
+---
 
     foreach (Joint joint in body.Joints)
     {
@@ -37,14 +42,14 @@ Example using CoordinateMapper:
         }
     }
 
-Tutorial
----
-* Read a thorough tutorial to understand Kinect coordiante mapping: [http://pterneas.com/?p=1554] (http://pterneas.com/?p=1554)
-
 Credits
 ---
-* Developed by [Vangos Pterneas](http://pterneas.com) for [LightBuzz](http://lightbuzz.com)
+Developed by [Vangos Pterneas](http://pterneas.com) for [LightBuzz](http://lightbuzz.com)
 
 License
 ---
 You are free to use these libraries in personal and commercial projects by attributing the original creator of Vitruvius. Licensed under [MIT License](https://github.com/Vangos/kinect-coordinate-mapping/blob/master/LICENSE).
+
+Vitruvius
+---
+Remember to check my other project, [Vitruvius] (https://github.com/LightBuzz/Vitruvius). Vitruvius is an open-source Kinect library that will speed-up the development process of your projects and will save you a ton of time. Vitruvius supports WPF, WinForms and WinRT.
