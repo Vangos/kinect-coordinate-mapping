@@ -6,9 +6,5 @@
     <Grid>
         <Image Name="camera" Width="640" Height="480" />
         <Canvas Name="canvas" Width="640" Height="480" />
-        <StackPanel Grid.Row="1" Height="35" Orientation="Horizontal" Margin="20" HorizontalAlignment="Center" VerticalAlignment="Bottom">
-            <Button Name="btnColorMode" Content="Color" Width="100" Margin="20,0" Click="Mode_Click" />
-            <Button Name="btnDepthMode" Content="Depth" Width="100" Margin="20,0" Click="Mode_Click" />
-        </StackPanel>
     </Grid>
 </Window>

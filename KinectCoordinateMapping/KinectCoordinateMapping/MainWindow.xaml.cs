@@ -103,7 +103,7 @@ namespace KinectCoordinateMapping
                                     point.X = colorPoint.X;
                                     point.Y = colorPoint.Y;
                                 }
-                                else if (_mode == CameraMode.Depth)
+                                else if (_mode == CameraMode.Depth) // Remember to change the Image and Canvas size to 320x240.
                                 {
                                     // Skeleton-to-Depth mapping
                                     DepthImagePoint depthPoint = _sensor.CoordinateMapper.MapSkeletonPointToDepthPoint(skeletonPoint, DepthImageFormat.Resolution320x240Fps30);
@@ -136,19 +136,6 @@ namespace KinectCoordinateMapping
             if (_sensor != null)
             {
                 _sensor.Stop();
-            }
-        }
-
-        private void Mode_Click(object sender, RoutedEventArgs e)
-        {
-            if (sender == btnColorMode)
-            {
-                _mode = CameraMode.Color;
-            }
-
-            if (sender == btnDepthMode)
-            {
-                _mode = CameraMode.Depth;
             }
         }
     }
